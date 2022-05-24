@@ -25,6 +25,9 @@ URGENT - no underline to link and editable image based on URL change
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
 }
 
  /* 1. (c) container 02 */
@@ -32,6 +35,9 @@ URGENT - no underline to link and editable image based on URL change
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0, 0.2);
+    backdrop-filter: blur(15px);
 }
 
 /*2 (a). Circle Image
@@ -43,7 +49,20 @@ URGENT - no underline to link and editable image based on URL change
     border: solid black;  
     border-radius: 50%;
     margin: 40px;
+    text-decoration: none;
 }
+
+.btnStyling {
+    background-color: #83817b;
+}
+
+/* .updatedImg {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(http://notrealdomain2.com/newbanner.png) no-repeat;
+    width: 180px; /* Width of new image }*/
+
 
 /* 3 (a). Name  */
 .nameStyling {

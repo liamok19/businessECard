@@ -1,0 +1,19 @@
+/* Table Contents
+1. HTML root Properties 
+2 (a). Circle Image
+3 (a). Name 
+4 (a). Phone Number 
+5 (a). Email 
+URGENT - no underline to link and editable image based on URL change 
+ */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Courier New', Courier, monospace;
+ }
+
+ body {
+     background-color: #c0BBB2;
+ }
